@@ -16,6 +16,7 @@
   width: 90%;
   max-width: 1250px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 /* HEADER */
@@ -29,7 +30,7 @@ header {
   height: 100%;
 }
 
-/* MAIN */
+/* first */
 
 .first {
   margin-top: 20px;
@@ -43,3 +44,5 @@ header {
   background-color: #b5ddff;
   border-radius: 30px;
 }
+
+/* second */
