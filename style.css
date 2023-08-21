@@ -13,6 +13,33 @@
   display: flex;
 }
 .container {
-  width: 95%;
+  width: 90%;
+  max-width: 1250px;
   margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+  height: 75px;
+  background-color: #0084fd;
+}
+
+.nav {
+  height: 100%;
+}
+
+/* MAIN */
+
+.first {
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.card {
+  flex-direction: column;
+  margin-top: 30px;
+  height: 600px;
+  background-color: #b5ddff;
+  border-radius: 30px;
 }
