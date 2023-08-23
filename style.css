@@ -37,12 +37,109 @@ header {
   flex-direction: column;
 }
 
+.first .row .col .card {
+  background-color: #b5ddff;
+}
+
 .card {
-  flex-direction: column;
   margin-top: 30px;
   height: 600px;
-  background-color: #b5ddff;
   border-radius: 30px;
 }
 
 /* second */
+
+.second {
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #9792e4;
+}
+.second .row .col .card {
+  background-color: white;
+}
+
+/* third */
+
+.third {
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: white;
+}
+.third .row .col .card {
+  background-color: #9792e4;
+}
+
+/* fourth */
+
+.fourth {
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #9792e4;
+}
+.fourth .row .col .card {
+  background-color: white;
+}
+
+/* about */
+
+.about {
+  flex-direction: column;
+}
+.about .container {
+  margin-top: 100px;
+}
+
+.about .row .col h1 {
+  color: #9792e4;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.about .row .col p {
+  margin-bottom: 50px;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.about .row .image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 1px red;
+}
+
+.about .row h1 {
+  color: #9792e4;
+  line-height: 40px;
+}
+
+/* started */
+
+.started {
+  height: 600px;
+  background-color: #9792e4;
+}
+
+/* footer */
+
+footer {
+  height: 235px;
+  background-color: #333333;
+  color: white;
+}
+
+footer p {
+  padding-top: 50px;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* TABLET */
+
+@media screen and (min-width 768px) {
+}
+
+/* DESKTOP */
+
+@media screen and (min-width 1200px) {
+}
